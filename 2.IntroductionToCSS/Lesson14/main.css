@@ -1,0 +1,12 @@
+body{
+    background-image: url(zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.borderImg{
+    border-right: 3px dashed red;
+}
+.container{
+    background-color: darkslateblue;
+}

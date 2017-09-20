@@ -1,0 +1,21 @@
+.container{
+    background-color: darkslateblue;
+}
+
+.gradient-color{
+    background: darkslateblue;
+    background: linear-gradient(to right, #00ccff, red);
+}
+
+.shadow-color{
+    background: darkslateblue;
+    box-shadow: 5px 5px;
+    text-shadow: 3px 3px 2px black;
+}
+h1{
+    color: #ffffff;
+}
+
+h2{
+    color: rgb(0, 204, 255);
+}

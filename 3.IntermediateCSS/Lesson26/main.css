@@ -1,0 +1,78 @@
+
+body{
+    /* background-image: url(zebra.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color:lightgray;
+    /* text-align: center; */
+}
+
+h1{    
+    color: lightgreen;
+    line-height: 2rem;
+    font-family: "Indie Flower", serif, sans-serif;
+    padding: 10px;
+}
+h2{
+    color: black;
+    line-height: 2rem;
+    font-family: Pacifico, serif, sans-serif;
+}
+h3{
+    color: black;
+    line-height: 2rem;
+    font-family: "Ubuntu Condensed", serif, sans-serif;
+}
+h1, h2, h3, p{
+    display: block;
+    text-align: center;
+    margin: 2px;
+}
+.rowBackground{
+    background-color: grey;
+}
+.formatting{
+    font-size: 25px;
+    line-height: 2em;
+    color: white;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: auto;
+    display: block;
+}
+
+
+.row{
+    display: flex;
+    width: 100%;    
+}
+
+.row::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col-1{ width: 8.33%;}
+.col-2{ width: 16.66%;}
+.col-3{ width: 25%;}
+.col-4{ width: 33.33%;}
+.col-5{ width: 41.66%;}
+.col-6{ width: 50%;}
+.col-7{ width: 58.33%;}
+.col-8{ width: 66.66%;}
+.col-9{ width: 75%;}
+.col-10{ width: 83.33%;}
+.col-11{ width: 91.66%;}
+.col-12{ width: 100%;}
+
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    float: left;
+}

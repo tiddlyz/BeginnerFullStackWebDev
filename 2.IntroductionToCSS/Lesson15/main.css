@@ -1,0 +1,23 @@
+body{
+    background-color: #0099ff;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+
+p{
+    color: yellow;
+}
+
+.header-color{
+    color: darkslateblue;
+}
+
+#h3-id{
+    color: darkviolet;
+    background-color: gray;
+    border: 3px dotted yellow;
+}

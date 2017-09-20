@@ -1,0 +1,23 @@
+ul li{
+    color: green;
+}
+
+ul > li{
+    color:red;
+}
+
+.parent h2 {
+    color: purple;
+}
+
+.parent div h2 {
+    color: cyan;
+}
+
+h1, h3, h4, p{
+    color: blue;
+}
+
+div h3{
+    color: darkorchid;
+}

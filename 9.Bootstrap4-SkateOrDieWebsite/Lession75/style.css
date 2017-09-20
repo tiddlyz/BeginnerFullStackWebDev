@@ -1,0 +1,18 @@
+/* .container{
+    background-color: #6c2eb9;
+    height: 5rem;
+}
+
+.row{
+    background-color: #ff9232;
+    height: 4.7rem;
+} */
+.jumbotron{
+    text-align: center;
+    background: none;
+}
+
+.sectionLight{
+    background-color: #eceeef;
+    padding: 2em;
+}

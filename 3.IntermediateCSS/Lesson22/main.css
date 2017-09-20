@@ -1,0 +1,49 @@
+
+body{
+    /* background-image: url(zebra.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color: #444;
+    text-align: center;
+}
+
+h1{
+    color: #ffffff;
+    line-height: 2rem;
+    font-family: "Indie Flower", serif, sans-serif;
+}
+h2{
+    color: #ffffff;
+    line-height: 2rem;
+    font-family: Pacifico, serif, sans-serif;
+}
+h3{
+    color: #ffffff;
+    line-height: 2rem;
+    font-family: "Ubuntu Condensed", serif, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:yellow;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    text-transform: uppercase;
+}
+.formatting{
+    font-size: 25px;
+    line-height: 2em;
+    color: white;
+}
+.borderImg{
+    border:10px dashed red;
+}
+
+ul li{
+    color: darkgreen;
+    font-size: 20px;
+}
+
+ul > li{
+    color: yellow;
+}
